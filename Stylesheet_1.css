@@ -11,12 +11,18 @@
         color: red;
       } 
 
-     div.pghc{
+    div.pghc{
         text-align: center; 
         color: blue;
      } 
 
-     div.indexheader{
-        text-align: center; 
+    div.indexheader{
+        text-align: center;
+    }
+
+    div.hasmargins{
+        margin-right: 200px;
+        margin-left: 200px;
+    } 
         
    
