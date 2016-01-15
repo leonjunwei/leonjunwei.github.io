@@ -36,45 +36,75 @@
 
     /* Custom, iPhone Retina */ 
     @media only screen and (min-width : 320px) {
-        div.hasmargins{
+        div.wideMargins{
             margin-right: 20px;
             margin-left: 20px;
 
         }
+
+        div.narrowMargins{
+            margin-right: 20px;
+            margin-left: 20px;
+
+        }        
     }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
-        div.hasmargins{
+        div.wideMargins{
             margin-right: 60px;
             margin-left: 60px;
 
         }
+
+        div.narrowMargins{
+            margin-right: 35px;
+            margin-left: 35px;
+
+        }             
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
-        div.hasmargins{
+        div.wideMargins{
             margin-right: 100px;
             margin-left: 100px;
 
         }
+
+        div.narrowMargins{
+            margin-right: 50px;
+            margin-left: 50px;
+
+        }            
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
-        div.hasmargins{
+        div.wideMargins{
             margin-right: 150px;
             margin-left: 150px;
 
         }
+
+        div.narrowMargins{
+            margin-right: 75px;
+            margin-left: 75px;
+
+        }             
     }
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-        div.hasmargins{
+        div.wideMargins{
             margin-right: 200px;
             margin-left: 200px;
 
         }
+
+        div.narrowMargins{
+            margin-right: 100px;
+            margin-left: 100px;
+
+        }        
     }
