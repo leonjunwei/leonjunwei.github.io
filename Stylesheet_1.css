@@ -20,9 +20,61 @@
         text-align: center;
     }
 
-    div.hasmargins{
+/*    div.hasmargins{
         margin-right: 200px;
         margin-left: 200px;
     } 
-        
-   
+        */
+   /*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        div.hasmargins{
+            margin-right: 20px;
+            margin-left: 20px;
+
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        div.hasmargins{
+            margin-right: 60px;
+            margin-left: 60px;
+
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        div.hasmargins{
+            margin-right: 100px;
+            margin-left: 100px;
+
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        div.hasmargins{
+            margin-right: 150px;
+            margin-left: 150px;
+
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        div.hasmargins{
+            margin-right: 200px;
+            margin-left: 200px;
+
+        }
+    }
