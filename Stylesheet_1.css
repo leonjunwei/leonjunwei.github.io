@@ -36,7 +36,9 @@
         max-height: 100%
     }
 
-
+    #whiteLinks a{
+      color: white;
+    }
 /*Change the div, maybe? Look at the ctrl-shift-I of the page - there might be a way to get the links working*/
     #bg1 {
       position: fixed; 
