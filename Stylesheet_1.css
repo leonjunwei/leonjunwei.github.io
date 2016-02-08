@@ -80,6 +80,18 @@
       
       }
 
+    div.bottomMargin {
+      margin-bottom: 50px
+    }
+
+    #justify p{
+       text-align: justify
+    }
+
+    #serif p {
+      font-family: Georgia, Times, 'Times New Roman', serif;
+    }
+
 /*    div.hasmargins{
         margin-right: 200px;
         margin-left: 200px;
