@@ -101,15 +101,31 @@
             <p style="font-size:20px"><u>Foo.bar - Minglish</u></p>
             <p style="font-size:16px"><i>Given an alphabetically-sorted dictionary of Minglish words, write a function called answer(words) that returns a string of letters arranged in correct Minglish Alphabetical order!
             </i></p>
-            <p style="font-size:16px">This one was pretty straightforward. It took surprisingly long on some test cases - I think the recursive part of the program is what's causing it, but am not entirely sure how to tell.</p>
+            <p style="font-size:16px">This one was pretty straightforward. It took surprisingly long on some test cases - I think the recursive part of the program is what's causing it. It might be better to use object-oriented programming so each letter contains a list of letters it's "superior to".</p>
         </div>
     </div>
-    <br> 
+    <br>
 
     <div class = "container wideMargins">
         <iframe src="https://trinket.io/embed/python/f9c27d3a98" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
     </div>
 
+    <br>
+    <div class="container narrowMargins" id = "serif" >
+        <div id = "justify">
+            <p style="font-size:20px"><u>Foo.bar - Breeding Like Rabbits</u></p>
+            <p style="font-size:16px"><i>Given R(0) = 1, R(1) = 1, R(2) = 2, R(2t+1) = R(t-1) + R(t) + 1 for t >= 1 and R(2t) = R(t) + R(t+1) + t for t > 1: </i></p>
+
+            <p style="font-size:16px"><i>Write a function answer(str_S) which, given the base-10 string representation of an integer S, returns the largest n such that R(n) = S. Return the answer as a string in base-10 representation.
+            </i></p>
+            <p style="font-size:16px">I couldn't find an algorithm, so I decided to do a bisect search since the series R is strictly increasing. Trinket doesn't deal well with recursion so I've only put in small numbers, but on my computer the code will handle inputs up to 10^25 in under a second!</p>
+        </div>
+    </div>
+    <br>
+
+    <div class = "container wideMargins">
+        <iframe src="https://trinket.io/embed/python/b022e47442" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    </div>
 
 
     <div class="container narrowMargins bottomMargin" id = "serif" >
